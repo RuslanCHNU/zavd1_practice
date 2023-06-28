@@ -31,6 +31,6 @@ puts Validation.valid_name?("Maria-Anna-Smith-Jones-Williams")
 
 puts Validation.valid_inn?("AZ1234543456")
 puts Validation.valid_inn?("AB1234567890")
-
+ 
 puts Validation.after_date?(Date.new(2000, 1, 1))
 puts Validation.after_date?(Date.today)
